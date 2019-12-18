@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/css/Home%20Page.css">
+    <title>路途yo你 - 登录</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
+</head>
+<body>
+
+
+
+{% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flash">
+                {% for message in messages %}
+                    <div class="alert alert-success" style="text-align: center">
+                        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                        <strong>{{ message }}</strong></div>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+<div class="background">
+    <video autoplay loop muted>
+        <source src="../static/pic/Home%20Page%20video.mp4" type="video/mp4"  />
+        Your Browser is no longer supported.
+    </video>
+</div>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="RED">
+            <div class="logo">
+                <img src="../static/pic/Home%20page_logo.png"  CLASS="darklogo">
+            </div>
+        </div>
+        <ul class="nav">
+            <li class="list-item">
+                <a href="http://127.0.0.1:5000/">首页 </a>
+            </li>
+            <li class="list-item">
+                <a href="#">我的行程 </a>
+            </li>
+            <li class="list-item">
+                <a href="#"> 业务合作</a>
+            </li>
+            <li class="list-item">
+                <a href="http://127.0.0.1:5000/news">新闻中心</a>
+            </li>
+            <li class="list-item">
+                <a href="http://127.0.0.1:5000/aboutus">关于我们 </a>
+            </li>
+            <li class="list-item">
+                <a href="http://127.0.0.1:5000/help">帮助</a>
+            </li>
+            <li class="list-item">
+                <a href="#">社会责任 </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="login">
+    <div class="logo_1"></div>
+    <form class="form-item" action="http://127.0.0.1:5000/login" method="POST">
+        <p style="padding-bottom:30px"><input id="username" type="text" autocomplete="off" placeholder="手机号" name="phone"></p>
+        <p style="padding-bottom:30px"><input id="password" type="password" autocomplete="off" placeholder="登录密码" name="passwd"></p>
+        <p><input type="submit" value="登录" style="padding-left:0;margin-left:0;width:350px;background-color:white;color:#1f6f4a;cursor:pointer" onclick="a()"></p>
+    </form>
+    <div class="reg-bar">
+        <a class="reg"  href="http://127.0.0.1:5000/register" target="_blank" >立即注册</a>
+        <a class="forget"  href="http://127.0.0.1:5000/change" target="_blank">忘记密码</a>
+    </div>
+</div>
+
+</body>
+</html>
+<!--<script>-->
+<!--    function Login() {-->
+<!--        window.location.href = 'https://www.baidu.com/';-->
+<!--    }-->
+<!--</script>-->
+
+

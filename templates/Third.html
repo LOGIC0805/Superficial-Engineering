@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta charset="utf-8" />
+		<title>旅途yo你 - 景点选择</title>
+		<style data-aphrodite="data-aphrodite" ></style>
+
+		<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=e3Vhd8ZEL0PtItURKoAOIncNotdG0KEP"></script>
+		<link rel = "stylesheet" type = "text/css" href = "../static/Third/css/third_main.css">
+	</head>
+
+	<body>
+		<div class="box">
+			<div class="box1">
+				<div id="l-map"></div>
+				<!--<div id="r-result">请输入:<input type="text" id="suggestId" size="20" value="百度" style="width:150px;" /></div>-->
+				<div id="searchResultPanel" style="border:1px solid #C0C0C0;width:150px;height:auto; display:none;"></div>
+			</div>
+			<div class="box2" id="box2">
+				<!--<div class="cache" id="cache1"></div>-->
+				<section id="">
+					<section id="data">
+				<form id="submit" style="width: 20%; height: 100%; background-color: greenyellow; " action="http://127.0.0.1:5000/map" method="post">
+							<p><input type="hidden" placeholder="尚未填写" id="list" name="list"></p>
+							<p><input class="_1b836zau" aria-busy="false" style="height: 99%;width: 100%;background-color: white; " value="提交" type="submit"></p>
+				</form>
+					</section>
+				</section>
+			</div>
+		</div>
+		<div class="box3">
+			<div class="search0">
+				<div class="button" id="address">住宿地址</div>
+				<div class="button" id="attraction">旅游景点</div>
+				<!--<hr class="full-divider" style="max-width:300px;border-right:0;border-top:0;border-bottom:1px solid #cacaca;border-left:0;margin:20px auto;clear:both;background-color:#dbdbdb;height:2px;border:none;"  />-->
+				<!--<div style="float:left;width: 100%;height: 1px; background: gray;"></div>-->
+				<div class="picture">
+					<!--<img src="地图.png" style="width: 100%;height: 100%;position: absolute;"/>-->
+					<div class="search bar7" style="float: right;">
+						<form>
+							<input type="text" placeholder="请输入住宿地址" name="crid" id="crid">
+						</form>
+					</div>
+				</div>
+			</div>
+			<hr class="full-divider" style="max-width:300px;border-right:0;border-top:0;border-bottom:1px solid #cacaca;border-left:0;margin:0px auto;clear:both;background-color:white;height:2px;border:none;" />
+			<div class="menu" id="menu">
+				<div class="spot" id="spot1"><img src="../static/Third/PICTURE/140/1.jpg">
+					<!--					<span style="position: absolute; bottom: 0; left: 0;color: white;">添加文字.</span>
+-->				</div>
+				<div class="spot" id="spot2"><img src="../static/Third/PICTURE/140/2.jpg" /></div>
+				<div class="spot" id="spot3"><img src="../static/Third/PICTURE/140/3.jpg" /></div>
+				<div class="spot" id="spot4"><img src="../static/Third/PICTURE/140/4.jpg" /></div>
+				<div class="spot" id="spot5"><img src="../static/Third/PICTURE/140/5.jpg" /></div>
+				<div class="spot" id="spot6"><img src="../static/Third/PICTURE/140/6.jpg" /></div>
+				<div class="spot" id="spot7"><img src="../static/Third/PICTURE/140/7.jpg" /></div>
+				<div class="spot" id="spot8"><img src="../static/Third/PICTURE/140/8.jpg" /></div>
+				<div class="spot" id="spot9"><img src="../static/Third/PICTURE/140/9.jpg" /></div>
+				<div class="spot" id="spot10"><img src="../static/Third/PICTURE/140/10.jpg" /></div>
+			</div>
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript" src="../static/Third/js/third_main.js"> </script>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 14px,Arial,宋体;
+    color: #000000;
+    background: #696866;
+}
+#register {
+    width: 986px;
+    background: #fff;
+    margin: 0 auto;
+}
+.regtop {
+    width: 970px;
+    height: 45px;
+    padding-top: 15px;
+    padding-left: 16px;
+    clear: both;
+}
+.regtop .left {
+    width: 175px;
+    float: left;
+}
+.regtop .right {
+    width: 790px;
+    margin-top: 18px;
+    height: 26px;
+    padding-left: 5px;
+    border-top: 0px solid #c1c1c1;
+    font-size: 16px;
+    color: #333333;
+    line-height: 24px;
+    float: left;
+}
+.service {
+    width: 806px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.service h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 14px;
+}
+.service .cont {
+    padding: 15px 0;
+    margin-top: 10px;
+    border-top: 1px solid #bbc1cd;
+    clear: both;
+}
+.service .cont h3 {
+    font-size: 14px;
+    clear: both;
+}
+.service .cont p {
+    padding-bottom: 15px;
+    clear: both;
+    line-height: 22px;
+}
+p {
+    line-height: 18px;
+}
+.regbot {
+    width: 986px;
+    padding: 20px 0;
+    font-size: 12px;
+    text-align: center;
+    background: #eaeaea;
+    color: #707070;
+    border-top: 1px solid #c1c1c1;
+    clear: both;
+}
+.regbot a {
+    color: #707070;
+    padding: 0 3px;
+}
+a {
+    text-decoration: underline;
+    color: #000000;
+}

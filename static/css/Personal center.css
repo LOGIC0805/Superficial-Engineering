@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: arial;
+}
+html{
+    height: 100%;
+}
+body, html {
+    font: 12px/1.5 'Microsoft Yahei','\5FAE\8F6F\96C5\9ED1','Hiragino Sans GB','\5B8B\4F53',Arial;
+}
+#header {
+    min-width: 1180px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+#m-header {
+    margin-top: 10px;
+    position: relative;
+    background: #fff;
+    line-height: 70px;
+    font-size: 16px;
+    color: #333;
+}
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.g-ctn {
+    display: block;
+    width: 1180px;
+    margin: 0 auto;
+    background: #FFF;
+}
+.f-cb {
+    display: block;
+    zoom: 1;
+}
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.f-fl {
+    float: left;
+}
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+#m-header a {
+    text-decoration: none;
+}
+a:active, a:focus, a:link, a:visited {
+    text-decoration: none;
+    outline: 0;
+    outline: 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition: background .3s,color .3s,opacity .3s;
+    transition: background .3s,color .3s,opacity .3s;
+}
+#main .m-user .avatar {
+    margin-right: 10px;
+    position: relative;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+}
+#main .m-user {
+    height: 160px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    text-align: center;
+    width: 240px;
+    position: relative;
+}
+#main .m-user .info-part {
+    margin-left: auto;
+    padding-top: 10px;
+    width: 115px;
+    color: #333;
+    text-align: left;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 路途yo你 - 注册 </title>
+    <link rel="stylesheet" type="text/css" href="../static/css/Login.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#userName").click(function(){
+                $("#Name").hide();
+            });
+            $("#userPhone").click(function(){
+                $("#Phone").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+<script>
+    // //一般直接写在一个js文件中
+    // layui.use(['layer', 'form'], function(){
+    //     var layer = layui.layer
+    //         ,form = layui.form;
+    //
+    //     layer.msg('Hello World');
+    // });
+</script>
+<div class="bg" >
+    <img id="bg-img" src="../static/pic/Login_bg.jpg" >
+</div>
+<div class="header">
+  <span class="logo">
+  </span>
+</div>
+<section class="box vertical wrapper">
+    <div class="logo-body">
+        <div class="logo-form box">
+            <div class="left">
+                <article>
+                    <div class="phone-logon tab-box" id="phone_logon" style="padding-top: 5px; margin-top: 20px">
+                        <div class="logo-form form-wrapper" style="width: 310px">
+                            <!-- <input name="from" class="hide" id="from" value=""> -->
+                            <div class="form-item">
+                                <form class="form-ctrl" action="http://127.0.0.1:5000/register" method="POST">
+                                    <p style="margin-bottom:30px;"><input title="昵称，至少2个字符，至多20个字符" class="error" type="text" maxlength="20" placeholder="请输入昵称，至少2个字符，至多20个" autocomplete="off" name="username"></p>
+                                    <p style="margin-bottom:30px;"><input title="手机号码" class="error" type="text" maxlength="11" placeholder="请输入手机号码" name="userphone"></p>
+                                    <p style="margin-bottom:30px;"><input title="密码，字母或特殊符号和数字结合" id="userPassword" type="password" placeholder="请输入密码，字母或特殊符号 + 数字" autocomplete="new-password" name="userpasswd"></p>
+                                    <p class="form-button form-item"><input class="btn btn-green block btn-logon" type="submit" value="注册" style="color:white;height:45px;padding:.4rem 1.2rem;background-color:#31b968;font-size:unset"></p>
+                                </form>
+                            </div>
+                            <div class="form-item">
+                                <div class="form-ctrl osc-checkbox-accept-term">
+                                    <input name="accept_term_phone" tabindex="0" class="accept_term" id="accept_term_phone" type="checkbox" value="1">
+                                    <label for="accept_term_phone">已阅读并同意<a href="http://127.0.0.1:5000/service" target="_blank">服务条款</a></label>
+                                </div>
+                                <div class="form-tips"></div>
+                            </div>
+                        </div>
+                        <div class="other-login">
+                        <div class="login-logos">
+                            <div class="gitee-login">
+                                <a title="使用华师大帐号直接登录" class="span-box login-logo" style="display:flex;align-items:center;justify-content:center;margin-top:26px;" href="https://www.ecnu.edu.cn/">
+                                    <img src="../static/pic/Home%20page_logo.png" id="other-img">
+                                    <span style="color:#323232;font-size:16px;padding-left:5px;">使用华师大帐号可直接登录</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </article>
+            </div>
+            <div class="right">
+                <div class="img">
+                    <img src="../static/pic/Login_logo.png" id="right-img" alt="背景 "/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="home-footer">
+    <div>
+        <div>
+            <span class="copy">©<span>旅途yo你 |  <a class="btn-link" href="http://127.0.0.1:5000/aboutus">关于我们</a> | <a class="btn-link" href="#">联系我们</a> | <a class="btn-link" href="#">旅途yo你 手机版</a>
+            <a href="#" target="_blank">粤ICP备00000000号-1</a>
+        </span></span></div>
+        <div>
+            面子工程团队是 华师大开源软件推进联盟 指定的官方社区
+        </div>
+    </div>
+</footer>
+</body>
+</html>
